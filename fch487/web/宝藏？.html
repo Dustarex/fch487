@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>恭喜你发现了宝藏，自制炒鸡简陋翻转动画特效</title>
+	<style>
+		.cardfch{width: 500px;heigt:500px;background:rgba(25,28,99,1.00);position: relative;float:left}
+		.front,.back{position:absolute;transition: all 0.5s}
+		.front{z-index: 999;transform: rotateX(0deg);backface-visibility: hidden}
+		.back{z-index: 998;transform: rotateX(180deg);backface-visibility: hidden}
+		.cardfch:hover .front {transform: rotateX(180deg)}
+		.cardfch:hover .back {transform: rotateX(0deg)}
+	</style>
+</head>
+
+<body>
+<div class="cardfch">
+		<div class="front">
+			<img src="../图片资源/5b94cf817f080bbafca8f9b715dd0dba.jpeg" alt="front1">
+	    </div>
+		<div class="back">
+			<img src="../图片资源/5b94cf817f080bbafca8f9b715dd0dba(1).png" alt="back1">
+		</div>
+</div>
+
+</div>
+</body>
+</html>
